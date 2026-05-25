@@ -1,6 +1,6 @@
 class Indeks:
     def __init__(self) -> None:
-        self.oceny: list[float] = [] #do tworzenia ocen w indeksach studentow
+        self.oceny: list[float] = []  # do tworzenia ocen w indeksach studentow
 
     def dodaj_ocene(self, nowa_ocena: float) -> None:
         self.oceny.append(nowa_ocena)

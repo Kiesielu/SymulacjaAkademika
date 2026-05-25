@@ -1,5 +1,5 @@
-import indeks
 from indeks import Indeks
+
 
 def test_indeks() -> None:
     indeks = Indeks()
@@ -18,7 +18,8 @@ def test_indeks() -> None:
 
     assert indeks.pokaz_srednia() == 3.0
 
-def test_indeks2()-> None:
+
+def test_indeks2() -> None:
     indeks = Indeks()
 
     indeks.dodaj_ocene(4.0)
@@ -26,6 +27,7 @@ def test_indeks2()-> None:
     indeks.dodaj_ocene(5.0)
 
     assert round(indeks.pokaz_srednia(), 1) == 4.7
+
 
 def test_pusty() -> None:
     indeks = Indeks()
