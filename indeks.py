@@ -1,14 +1,14 @@
 class Indeks:
-    def __init__(self) -> None:
-        self.oceny: list[float] = []  # do tworzenia ocen w indeksach studentow
+    def __init__(stud) -> None:
+        stud.oceny: list[float] = []  # do tworzenia ocen w indeksach studentow
 
-    def dodaj_ocene(self, nowa_ocena: float) -> None:
-        self.oceny.append(nowa_ocena)
+    def dodaj_ocene(stud, nowa_ocena: float) -> None:
+        stud.oceny.append(nowa_ocena)
 
-    def pokaz_srednia(self) -> float:
-        if not self.oceny:
+    def pokaz_srednia(stud) -> float:
+        if not stud.oceny:
             return 0.0
 
-        suma_ocen = sum(self.oceny)
-        ilosc_ocen = len(self.oceny)
+        suma_ocen = sum(stud.oceny)
+        ilosc_ocen = len(stud.oceny)
         return suma_ocen / ilosc_ocen
