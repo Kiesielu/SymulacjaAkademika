@@ -2,9 +2,6 @@ from studenci import Kujon, Imprezowicz, Tancerz, Gawendziarz
 
 def test_student_kujon() -> None:
     kujon = Kujon("Olgierd")
-    imprezowicz = Imprezowicz("Zbyszek")
-    tancerz = Tancerz("Anna")
-    gawendziarz = Gawendziarz("Jan")
 
     kujon.ucz_sie()
     assert kujon.wiedza == 30
@@ -15,6 +12,9 @@ def test_student_kujon() -> None:
     assert kujon.stres == 20
     assert kujon.spoleczny == 40
 
+def test_student_imprezowicz() -> None:
+    imprezowicz = Imprezowicz("Zbyszek")
+
     imprezowicz.ucz_sie()
     assert imprezowicz.wiedza == 12
     assert imprezowicz.stres == 2
@@ -23,6 +23,9 @@ def test_student_kujon() -> None:
     assert imprezowicz.wiedza == 14
     assert imprezowicz.stres == 4
     assert imprezowicz.spoleczny == 80
+
+def test_student_tancerz() -> None:
+    tancerz = Tancerz("Anna")
 
     tancerz.ucz_sie()
     assert tancerz.wiedza == 15
@@ -33,6 +36,9 @@ def test_student_kujon() -> None:
     assert tancerz.stres == 2
     assert tancerz.spoleczny == 70
 
+def test_student_gawendziarz() -> None:
+    gawendziarz = Gawendziarz("Jan")
+
     gawendziarz.ucz_sie()
     assert gawendziarz.wiedza == 20
     assert gawendziarz.stres == 5
@@ -41,10 +47,6 @@ def test_student_kujon() -> None:
     assert gawendziarz.wiedza == 30
     assert gawendziarz.stres == 10
     assert gawendziarz.spoleczny == 60
-
-
-
-
 
 
 
