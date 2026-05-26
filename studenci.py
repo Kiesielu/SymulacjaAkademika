@@ -22,13 +22,15 @@ class Kujon(Student):
     def ucz_sie(stud) -> None:
         stud.wiedza += 20
         stud.stres += 10
-        stud.spoleczny -= 5 #wiadomo siedzi w domu i sie tylko uczy hehe
+        stud.spoleczny -= 5  # wiadomo siedzi w domu i sie tylko uczy hehe
+
 
 class Imprezowicz(Student):
     def ucz_sie(stud) -> None:
         stud.wiedza += 2
         stud.stres += 2
         stud.spoleczny += 15
+
 
 class Tancerz(Student):
     def ucz_sie(stud) -> None:
