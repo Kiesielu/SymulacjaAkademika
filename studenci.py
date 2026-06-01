@@ -1,3 +1,4 @@
+import random
 from indeks import Indeks
 
 def inicjalizuj_gre(podany_seed=None) -> None:
