@@ -1,11 +1,13 @@
 import random
 from indeks import Indeks
 
+
 def inicjalizuj_gre(podany_seed=None) -> None:
     if podany_seed is not None:
         random.seed(podany_seed)
     else:
         random.seed()
+
 
 class Student:
     def __init__(stud, imie: str) -> None:
@@ -47,4 +49,4 @@ class Tancerz(Student):
 
 
 class Gawendziarz(Student):
-    pass
+    pass  # dziedziczenie i default opcje

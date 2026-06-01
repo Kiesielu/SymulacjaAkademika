@@ -1,12 +1,12 @@
 from studenci import Kujon, inicjalizuj_gre
 
-#seed zukchrabonscz
+# seed zukchrabonscz
 inicjalizuj_gre("zukchrabonszcz")
 student1 = Kujon("Student1Kujon")
 print(
     f"{student1.imie} -> Wiedza: {student1.wiedza}, Stres: {student1.stres}, Towarzyskość: {student1.spoleczny}"
 )
-#seed <brak>
+# seed <brak>
 inicjalizuj_gre(None)
 student2 = Kujon("Student2Kujon")
 print(
