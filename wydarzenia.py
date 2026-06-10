@@ -13,7 +13,6 @@ class LosowaImpreza:
             ]
         )
         alko.wypij_przez(stud)
-
         stud.wiedza -= alko.moc * 5
 
 
@@ -31,12 +30,14 @@ class LosoweKolokwium:
             else:
                 ocena = 2
 
-            # Ściąganie: towarzyskość >= 50, niska własna ocena i obecność pomocnych kolegów
-            if ocena < 5 and stud.spoleczny >= 50 and ekipa:
-                pomocnicy = [s for s in ekipa if s != stud and s.wiedza >= 40]
-                if pomocnicy:
+            if ocena < 5 and stud.spoleczny >= 50 and ekipa is not None:
+                pomocnicy = []
+                for s in ekipa:
+                    if s != stud and s.wiedza >= 40:
+                        pomocnicy.append(s)
+
+                if len(pomocnicy) > 0:
                     helper = random.choice(pomocnicy)
-                    # 70% szans na powodzenie ściągania, 30% szans na przyłapanie
                     if random.random() < 0.7:
                         ocena = 4
                     else:

@@ -1,3 +1,4 @@
+import random
 from studenci import Kujon, inicjalizuj_gre
 from wydarzenia import LosowaImpreza, LosoweKolokwium
 
@@ -26,67 +27,70 @@ def test_kolokwium():
 
 
 def test_kolokwium_zaspanie_triggered():
-    from unittest.mock import patch
+    stara_funkcja = random.random
+    random.random = lambda: 0.1
+
     student = Kujon("Student")
     student.wiedza = 100
-    student.stres = 50  # 50 + 35 = 85 (>= 80)
+    student.stres = 50
 
     kolokwium = LosoweKolokwium()
-    with patch("random.random", return_value=0.1):  # < 0.5 -> triggers oversleeping
-        kolokwium.odpal_dla(student)
+    kolokwium.odpal_dla(student)
 
     assert student.indeks.oceny == [2]
+    random.random = stara_funkcja
 
 
 def test_kolokwium_zaspanie_not_triggered():
-    from unittest.mock import patch
+    stara_funkcja = random.random
+    random.random = lambda: 0.9
+
     student = Kujon("Student")
     student.wiedza = 100
-    student.stres = 50  # 85 (>= 80)
+    student.stres = 50
 
     kolokwium = LosoweKolokwium()
-    with patch("random.random", return_value=0.9):  # >= 0.5 -> no oversleeping
-        kolokwium.odpal_dla(student)
+    kolokwium.odpal_dla(student)
 
     assert student.indeks.oceny == [5]
+    random.random = stara_funkcja
 
 
 def test_kolokwium_sciaganie_sukces():
-    from unittest.mock import patch
+    stara_funkcja = random.random
+    random.random = lambda: 0.1
+
     student = Kujon("Student")
-    student.wiedza = 10  # normal grade 2
-    student.spoleczny = 60  # >= 50, wants to cheat
+    student.wiedza = 10
+    student.spoleczny = 60
     student.stres = 0
 
     pomocnik = Kujon("KujonPomocnik")
-    pomocnik.wiedza = 80  # helper >= 40
+    pomocnik.wiedza = 80
 
     ekipa = [student, pomocnik]
     kolokwium = LosoweKolokwium()
+    kolokwium.odpal_dla(student, ekipa)
 
-    # Since stress < 80, the first random.random() check for oversleeping is short-circuited.
-    # random.random() is called only once for the cheating check.
-    with patch("random.random", return_value=0.1):  # < 0.7 -> successfully cheats
-        kolokwium.odpal_dla(student, ekipa)
-
-    assert student.indeks.oceny == [4]  # grade boosted to 4
+    assert student.indeks.oceny == [4]
+    random.random = stara_funkcja
 
 
 def test_kolokwium_sciaganie_zlapanie():
-    from unittest.mock import patch
+    stara_funkcja = random.random
+    random.random = lambda: 0.8
+
     student = Kujon("Student")
-    student.wiedza = 30  # normal grade 3
-    student.spoleczny = 60  # >= 50, wants to cheat
+    student.wiedza = 30
+    student.spoleczny = 60
     student.stres = 0
 
     pomocnik = Kujon("KujonPomocnik")
-    pomocnik.wiedza = 80  # helper >= 40
+    pomocnik.wiedza = 80
 
     ekipa = [student, pomocnik]
     kolokwium = LosoweKolokwium()
+    kolokwium.odpal_dla(student, ekipa)
 
-    with patch("random.random", return_value=0.8):  # >= 0.7 -> gets caught
-        kolokwium.odpal_dla(student, ekipa)
-
-    assert student.indeks.oceny == [2]  # grade dropped/kept to 2 because got caught
-
+    assert student.indeks.oceny == [2]
+    random.random = stara_funkcja
