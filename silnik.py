@@ -39,7 +39,7 @@ class SilnikSymulacji:
                 f"losowe wydarzenie: {wydarzenie.__class__.__name__}!"
             )
             for s in self.ekipa:
-                wydarzenie.odpal_dla(s)
+                wydarzenie.odpal_dla(s, self.ekipa)
 
     def odpal_symulacje(self, ilosc_dni):
         for i in range(1, ilosc_dni + 1):
