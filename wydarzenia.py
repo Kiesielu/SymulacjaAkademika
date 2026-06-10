@@ -1,24 +1,25 @@
 import random
-from alkohole import Piwo, Wodka, Bimber
+from alkohole import Piwo, Wino, Wodka, Bimber
 
 
 class LosowaImpreza:
     def odpal_dla(wyd, stud):
         alko = random.choice(
-            [Piwo("Sok Jablkowy"), Wodka("Woda"), Bimber("Sok Pomaranczowy")]
+            [
+                Piwo("Sok Jablkowy"),
+                Wino("Kompot"),
+                Wodka("Woda"),
+                Bimber("Sok Pomaranczowy"),
+            ]
         )
         alko.wypij_przez(stud)
 
         stud.wiedza -= alko.moc * 5
-        if stud.wiedza < 0:
-            stud.wiedza = 0
 
 
 class LosoweKolokwium:
     def odpal_dla(wyd, stud):
         stud.stres += 35
-        if stud.stres > 100:
-            stud.stres = 100
 
         if stud.wiedza >= 40:
             ocena = 5
@@ -27,4 +28,4 @@ class LosoweKolokwium:
         else:
             ocena = 2
 
-        stud.indeks.oceny.append(ocena)
+        stud.indeks.dodaj_ocene(ocena)

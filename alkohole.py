@@ -6,8 +6,6 @@ class Alkohol:
     def wypij_przez(alko, stud):
         stud.stres -= alko.moc * 2
         stud.spoleczny += alko.moc * 3
-        if stud.stres < 0:
-            stud.stres = 0
 
 
 class Piwo(Alkohol):

@@ -1,12 +1,17 @@
 import random
-from studenci import Gawendziarz, Imprezowicz, Kujon
+from studenci import Gawendziarz, Imprezowicz, Kujon, Tancerz
 from wydarzenia import LosowaImpreza, LosoweKolokwium
 
 
 class SilnikSymulacji:
 
     def __init__(self):
-        self.ekipa = [Kujon("Kujon"), Imprezowicz("Imprezowicz"), Gawendziarz("Gawendziarz")]
+        self.ekipa = [
+            Kujon("Kujon"),
+            Imprezowicz("Imprezowicz"),
+            Gawendziarz("Gawendziarz"),
+            Tancerz("Tancerz"),
+        ]
         self.wydarzenia = [LosowaImpreza(), LosoweKolokwium()]
 
     def pokaz_stan(self):
