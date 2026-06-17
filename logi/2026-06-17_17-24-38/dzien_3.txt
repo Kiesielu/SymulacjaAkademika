@@ -1,9 +1,0 @@
-Dzien 3
-Logi dla Kujon:
-  Nauka (Kujon): wiedza=64, stres=38, spoleczny=8
-Logi dla Imprezowicz:
-  Nauka (Imprezowicz): wiedza=21, stres=5, spoleczny=63
-Logi dla Gawendziarz:
-  Nauka: wiedza=38, stres=15, spoleczny=34
-Logi dla Tancerz:
-  Nauka (Tancerz): wiedza=36, stres=20, spoleczny=31

@@ -6,7 +6,6 @@ class Alkohol:
     def wypij_przez(alko, stud):
         stud.stres -= alko.moc * 2
         stud.spoleczny += alko.moc * 3
-        stud.lista_logow.append(f"Wypito {alko.nazwa}: stres={stud.stres}, spoleczny={stud.spoleczny}")
 
 
 class Piwo(Alkohol):

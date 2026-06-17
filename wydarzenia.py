@@ -12,9 +12,9 @@ class LosowaImpreza:
                 Bimber("Sok Pomaranczowy"),
             ]
         )
-        stud.lista_logow.append(f"Impreza - wybrano: {alko.nazwa}")
         alko.wypij_przez(stud)
         stud.wiedza -= alko.moc * 5
+        stud.lista_logow.append(f"Impreza: wypito {alko.nazwa}, wiedza={stud.wiedza}, stres={stud.stres}, spoleczny={stud.spoleczny}")
 
 
 class LosoweKolokwium:

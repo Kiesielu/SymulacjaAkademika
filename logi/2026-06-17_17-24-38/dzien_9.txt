@@ -1,9 +1,0 @@
-Dzien 9
-Logi dla Kujon:
-  Nauka (Kujon): wiedza=100, stres=99, spoleczny=1
-Logi dla Imprezowicz:
-  Nauka (Imprezowicz): wiedza=2, stres=34, spoleczny=100
-Logi dla Gawendziarz:
-  Nauka: wiedza=28, stres=49, spoleczny=73
-Logi dla Tancerz:
-  Nauka (Tancerz): wiedza=21, stres=46, spoleczny=79
