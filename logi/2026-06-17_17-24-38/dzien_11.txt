@@ -1,0 +1,13 @@
+Dzien 11
+Logi dla Kujon:
+  Impreza - wybrano: Kompot
+  Wypito Kompot: stres=94, spoleczny=9
+Logi dla Imprezowicz:
+  Impreza - wybrano: Sok Pomaranczowy
+  Wypito Sok Pomaranczowy: stres=26, spoleczny=100
+Logi dla Gawendziarz:
+  Impreza - wybrano: Woda
+  Wypito Woda: stres=46, spoleczny=90
+Logi dla Tancerz:
+  Impreza - wybrano: Sok Pomaranczowy
+  Wypito Sok Pomaranczowy: stres=37, spoleczny=100

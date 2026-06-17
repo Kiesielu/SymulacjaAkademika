@@ -1,0 +1,13 @@
+Dzien 8
+Logi dla Kujon:
+  Impreza - wybrano: Sok Jablkowy
+  Wypito Sok Jablkowy: stres=89, spoleczny=6
+Logi dla Imprezowicz:
+  Impreza - wybrano: Kompot
+  Wypito Kompot: stres=32, spoleczny=100
+Logi dla Gawendziarz:
+  Impreza - wybrano: Woda
+  Wypito Woda: stres=44, spoleczny=68
+Logi dla Tancerz:
+  Impreza - wybrano: Sok Pomaranczowy
+  Wypito Sok Pomaranczowy: stres=45, spoleczny=69

@@ -1,0 +1,13 @@
+Dzien 24
+Logi dla Kujon:
+  Nauka (Kujon): wiedza=100, stres=100, spoleczny=0
+  Kolokwium: zaspanie z powodu stresu, ocena=2
+Logi dla Imprezowicz:
+  Nauka (Imprezowicz): wiedza=6, stres=61, spoleczny=100
+  Kolokwium: przylapany na sciaganiu od Gawendziarz, ocena=2
+Logi dla Gawendziarz:
+  Nauka: wiedza=63, stres=100, spoleczny=100
+  Kolokwium: napisane samodzielnie, ocena=5
+Logi dla Tancerz:
+  Nauka (Tancerz): wiedza=15, stres=69, spoleczny=100
+  Kolokwium: zaspanie z powodu stresu, ocena=2

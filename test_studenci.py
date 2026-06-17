@@ -84,3 +84,11 @@ def test_gawendziarz_learning():
     assert gawendziarz.wiedza == 60
     assert gawendziarz.stres == 35
     assert gawendziarz.spoleczny == 45
+
+
+def test_student_logging():
+    student = Student("Testowy")
+    assert len(student.lista_logow) == 0
+    student.ucz_sie()
+    assert len(student.lista_logow) == 1
+    assert "Nauka" in student.lista_logow[0]

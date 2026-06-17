@@ -1,0 +1,17 @@
+Dzien 2
+Logi dla Kujon:
+  Nauka (Kujon): wiedza=49, stres=11, spoleczny=34
+  Impreza - wybrano: Sok Jablkowy
+  Wypito Sok Jablkowy: stres=9, spoleczny=37
+Logi dla Imprezowicz:
+  Nauka (Imprezowicz): wiedza=32, stres=2, spoleczny=39
+  Impreza - wybrano: Sok Pomaranczowy
+  Wypito Sok Pomaranczowy: stres=0, spoleczny=54
+Logi dla Gawendziarz:
+  Nauka: wiedza=37, stres=14, spoleczny=20
+  Impreza - wybrano: Sok Jablkowy
+  Wypito Sok Jablkowy: stres=12, spoleczny=23
+Logi dla Tancerz:
+  Nauka (Tancerz): wiedza=18, stres=17, spoleczny=26
+  Impreza - wybrano: Woda
+  Wypito Woda: stres=9, spoleczny=38

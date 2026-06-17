@@ -1,0 +1,13 @@
+Dzien 17
+Logi dla Kujon:
+  Impreza - wybrano: Sok Pomaranczowy
+  Wypito Sok Pomaranczowy: stres=90, spoleczny=15
+Logi dla Imprezowicz:
+  Impreza - wybrano: Sok Pomaranczowy
+  Wypito Sok Pomaranczowy: stres=20, spoleczny=100
+Logi dla Gawendziarz:
+  Impreza - wybrano: Sok Jablkowy
+  Wypito Sok Jablkowy: stres=54, spoleczny=100
+Logi dla Tancerz:
+  Impreza - wybrano: Woda
+  Wypito Woda: stres=31, spoleczny=100

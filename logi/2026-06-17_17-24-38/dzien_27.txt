@@ -1,0 +1,13 @@
+Dzien 27
+Logi dla Kujon:
+  Nauka (Kujon): wiedza=95, stres=100, spoleczny=10
+  Kolokwium: napisane samodzielnie, ocena=5
+Logi dla Imprezowicz:
+  Nauka (Imprezowicz): wiedza=2, stres=88, spoleczny=100
+  Kolokwium: przylapany na sciaganiu od Gawendziarz, ocena=2
+Logi dla Gawendziarz:
+  Nauka: wiedza=53, stres=97, spoleczny=100
+  Kolokwium: zaspanie z powodu stresu, ocena=2
+Logi dla Tancerz:
+  Nauka (Tancerz): wiedza=5, stres=93, spoleczny=100
+  Kolokwium: sciaganie od Kujon, ocena=4

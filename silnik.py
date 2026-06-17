@@ -1,4 +1,6 @@
 import random
+import os
+import datetime
 from studenci import Gawendziarz, Imprezowicz, Kujon, Tancerz
 from wydarzenia import LosowaImpreza, LosoweKolokwium
 
@@ -13,6 +15,10 @@ class SilnikSymulacji:
             Tancerz("Tancerz"),
         ]
         self.wydarzenia = [LosowaImpreza(), LosoweKolokwium()]
+
+        teraz = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        self.sciezka_logow = os.path.join("logi", teraz)
+        os.makedirs(self.sciezka_logow, exist_ok=True)
 
     def pokaz_stan(self):
         print("statystki studentow")
@@ -40,6 +46,19 @@ class SilnikSymulacji:
             )
             for s in self.ekipa:
                 wydarzenie.odpal_dla(s, self.ekipa)
+
+        nazwa_pliku = os.path.join(self.sciezka_logow, f"dzien_{numer_dnia}.txt")
+        with open(nazwa_pliku, "w", encoding="utf-8") as f:
+            print("Logi z dzisiejszego dnia:")
+            f.write(f"Dzien {numer_dnia}\n")
+            for s in self.ekipa:
+                header = f"Logi dla {s.imie}:"
+                print(header)
+                f.write(header + "\n")
+                for wpis in s.lista_logow:
+                    print(f"  {wpis}")
+                    f.write(f"  {wpis}\n")
+                s.lista_logow.clear()
 
     def odpal_symulacje(self, ilosc_dni):
         for i in range(1, ilosc_dni + 1):

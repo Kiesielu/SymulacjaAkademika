@@ -1,0 +1,9 @@
+Dzien 13
+Logi dla Kujon:
+  Nauka (Kujon): wiedza=100, stres=100, spoleczny=4
+Logi dla Imprezowicz:
+  Nauka (Imprezowicz): wiedza=2, stres=28, spoleczny=100
+Logi dla Gawendziarz:
+  Nauka: wiedza=28, stres=51, spoleczny=95
+Logi dla Tancerz:
+  Nauka (Tancerz): wiedza=6, stres=38, spoleczny=100

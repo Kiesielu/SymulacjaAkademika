@@ -1,0 +1,9 @@
+Dzien 3
+Logi dla Kujon:
+  Kolokwium: napisane samodzielnie, ocena=5
+Logi dla Imprezowicz:
+  Kolokwium: przylapany na sciaganiu od Kujon, ocena=2
+Logi dla Gawendziarz:
+  Kolokwium: napisane samodzielnie, ocena=3
+Logi dla Tancerz:
+  Kolokwium: napisane samodzielnie, ocena=2
