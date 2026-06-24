@@ -19,7 +19,9 @@ class LosowaImpreza:
         )
         alko.wypij_przez(stud)
         stud.wiedza -= alko.moc * 5
-        stud.lista_logow.append(f"Impreza: wypito {alko.nazwa}, wiedza={stud.wiedza}, stres={stud.stres}, spoleczny={stud.spoleczny}")
+        stud.lista_logow.append(
+            f"Impreza: wypito {alko.nazwa}, wiedza={stud.wiedza}, stres={stud.stres}, spoleczny={stud.spoleczny}"
+        )
 
 
 class LosoweKolokwium:
@@ -31,7 +33,9 @@ class LosoweKolokwium:
 
         if stud.stres >= 80 and random.random() < 0.5:
             ocena = 2
-            stud.lista_logow.append(f"Kolokwium: zaspanie z powodu stresu, ocena={ocena}")
+            stud.lista_logow.append(
+                f"Kolokwium: zaspanie z powodu stresu, ocena={ocena}"
+            )
         else:
             if stud.wiedza >= 40:
                 ocena = 5
@@ -52,12 +56,18 @@ class LosoweKolokwium:
                     helper = random.choice(pomocnicy)
                     if random.random() < 0.7:
                         ocena = 4
-                        stud.lista_logow.append(f"Kolokwium: sciaganie od {helper.imie}, ocena={ocena}")
+                        stud.lista_logow.append(
+                            f"Kolokwium: sciaganie od {helper.imie}, ocena={ocena}"
+                        )
                     else:
                         ocena = 2
-                        stud.lista_logow.append(f"Kolokwium: przylapany na sciaganiu od {helper.imie}, ocena={ocena}")
+                        stud.lista_logow.append(
+                            f"Kolokwium: przylapany na sciaganiu od {helper.imie}, ocena={ocena}"
+                        )
 
             if not sciaganie:
-                stud.lista_logow.append(f"Kolokwium: napisane samodzielnie, ocena={ocena}")
+                stud.lista_logow.append(
+                    f"Kolokwium: napisane samodzielnie, ocena={ocena}"
+                )
 
         stud.indeks.dodaj_ocene(ocena)

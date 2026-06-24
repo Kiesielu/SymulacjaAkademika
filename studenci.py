@@ -64,7 +64,9 @@ class Student:
         stud.wiedza += 10
         stud.stres += 5
         stud.spoleczny += 5
-        stud.lista_logow.append(f"Nauka: wiedza={stud.wiedza}, stres={stud.stres}, spoleczny={stud.spoleczny}")
+        stud.lista_logow.append(
+            f"Nauka: wiedza={stud.wiedza}, stres={stud.stres}, spoleczny={stud.spoleczny}"
+        )
 
 
 class Kujon(Student):
@@ -75,7 +77,9 @@ class Kujon(Student):
         stud.wiedza += 20
         stud.stres += 10
         stud.spoleczny -= 5
-        stud.lista_logow.append(f"Nauka (Kujon): wiedza={stud.wiedza}, stres={stud.stres}, spoleczny={stud.spoleczny}")
+        stud.lista_logow.append(
+            f"Nauka (Kujon): wiedza={stud.wiedza}, stres={stud.stres}, spoleczny={stud.spoleczny}"
+        )
 
 
 class Imprezowicz(Student):
@@ -86,7 +90,9 @@ class Imprezowicz(Student):
         stud.wiedza += 2
         stud.stres += 2
         stud.spoleczny += 15
-        stud.lista_logow.append(f"Nauka (Imprezowicz): wiedza={stud.wiedza}, stres={stud.stres}, spoleczny={stud.spoleczny}")
+        stud.lista_logow.append(
+            f"Nauka (Imprezowicz): wiedza={stud.wiedza}, stres={stud.stres}, spoleczny={stud.spoleczny}"
+        )
 
 
 class Tancerz(Student):
@@ -97,9 +103,12 @@ class Tancerz(Student):
         stud.wiedza += 5
         stud.stres += 1
         stud.spoleczny += 10
-        stud.lista_logow.append(f"Nauka (Tancerz): wiedza={stud.wiedza}, stres={stud.stres}, spoleczny={stud.spoleczny}")
+        stud.lista_logow.append(
+            f"Nauka (Tancerz): wiedza={stud.wiedza}, stres={stud.stres}, spoleczny={stud.spoleczny}"
+        )
 
 
 class Gawendziarz(Student):
     """Student typu Gawendziarz."""
+
     pass

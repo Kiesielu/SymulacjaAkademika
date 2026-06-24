@@ -48,9 +48,7 @@ class SilnikSymulacji:
 
         if random.choice([True, False]):
             wydarzenie = random.choice(self.wydarzenia)
-            print(
-                f"losowe wydarzenie: {wydarzenie.__class__.__name__}!"
-            )
+            print(f"losowe wydarzenie: {wydarzenie.__class__.__name__}!")
             for s in self.ekipa:
                 wydarzenie.odpal_dla(s, self.ekipa)
 
