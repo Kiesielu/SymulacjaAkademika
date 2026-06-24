@@ -1,0 +1,260 @@
+--- Dzien 1 ---
+  Kujon:
+    Nauka (Kujon): wiedza=39, stres=23, spoleczny=6
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=20, stres=13, spoleczny=50
+  Gawendziarz:
+    Nauka: wiedza=26, stres=14, spoleczny=17
+  Tancerz:
+    Nauka (Tancerz): wiedza=21, stres=6, spoleczny=30
+
+--- Dzien 2 ---
+  Kujon:
+    Nauka (Kujon): wiedza=59, stres=33, spoleczny=1
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=22, stres=15, spoleczny=65
+  Gawendziarz:
+    Nauka: wiedza=36, stres=19, spoleczny=22
+  Tancerz:
+    Nauka (Tancerz): wiedza=26, stres=7, spoleczny=40
+
+--- Dzien 3 ---
+  Kujon:
+    Kolokwium: napisane samodzielnie, ocena=5
+  Imprezowicz:
+    Kolokwium: sciaganie od Kujon, ocena=4
+  Gawendziarz:
+    Kolokwium: napisane samodzielnie, ocena=3
+  Tancerz:
+    Kolokwium: napisane samodzielnie, ocena=3
+
+--- Dzien 4 ---
+
+--- Dzien 5 ---
+  Kujon:
+    Nauka (Kujon): wiedza=79, stres=78, spoleczny=0
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=24, stres=52, spoleczny=80
+  Gawendziarz:
+    Nauka: wiedza=46, stres=59, spoleczny=27
+  Tancerz:
+    Nauka (Tancerz): wiedza=31, stres=43, spoleczny=50
+
+--- Dzien 6 ---
+  Kujon:
+    Nauka (Kujon): wiedza=99, stres=88, spoleczny=0
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=26, stres=54, spoleczny=95
+  Gawendziarz:
+    Nauka: wiedza=56, stres=64, spoleczny=32
+  Tancerz:
+    Nauka (Tancerz): wiedza=36, stres=44, spoleczny=60
+
+--- Dzien 7 ---
+  Kujon:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Imprezowicz:
+    Kolokwium: sciaganie od Kujon, ocena=4
+  Gawendziarz:
+    Kolokwium: napisane samodzielnie, ocena=5
+  Tancerz:
+    Kolokwium: sciaganie od Gawendziarz, ocena=4
+
+--- Dzien 8 ---
+  Kujon:
+    Nauka (Kujon): wiedza=100, stres=100, spoleczny=0
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=28, stres=91, spoleczny=100
+  Gawendziarz:
+    Nauka: wiedza=66, stres=100, spoleczny=37
+  Tancerz:
+    Nauka (Tancerz): wiedza=41, stres=80, spoleczny=70
+
+--- Dzien 9 ---
+  Kujon:
+    Nauka (Kujon): wiedza=100, stres=100, spoleczny=0
+    Impreza: wypito Kompot, wiedza=85, stres=94, spoleczny=9
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=30, stres=93, spoleczny=100
+    Impreza: wypito Kompot, wiedza=15, stres=87, spoleczny=100
+  Gawendziarz:
+    Nauka: wiedza=76, stres=100, spoleczny=42
+    Impreza: wypito Kompot, wiedza=61, stres=94, spoleczny=51
+  Tancerz:
+    Nauka (Tancerz): wiedza=46, stres=81, spoleczny=80
+    Impreza: wypito Sok Pomaranczowy, wiedza=21, stres=71, spoleczny=95
+
+--- Dzien 10 ---
+  Kujon:
+    Nauka (Kujon): wiedza=100, stres=100, spoleczny=4
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=17, stres=89, spoleczny=100
+  Gawendziarz:
+    Nauka: wiedza=71, stres=99, spoleczny=56
+  Tancerz:
+    Nauka (Tancerz): wiedza=26, stres=72, spoleczny=100
+
+--- Dzien 11 ---
+  Kujon:
+    Nauka (Kujon): wiedza=100, stres=100, spoleczny=0
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=19, stres=91, spoleczny=100
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Gawendziarz:
+    Nauka: wiedza=81, stres=100, spoleczny=61
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Tancerz:
+    Nauka (Tancerz): wiedza=31, stres=73, spoleczny=100
+    Kolokwium: sciaganie od Kujon, ocena=4
+
+--- Dzien 12 ---
+  Kujon:
+    Nauka (Kujon): wiedza=100, stres=100, spoleczny=0
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=21, stres=100, spoleczny=100
+  Gawendziarz:
+    Nauka: wiedza=91, stres=100, spoleczny=66
+  Tancerz:
+    Nauka (Tancerz): wiedza=36, stres=100, spoleczny=100
+
+--- Dzien 13 ---
+  Kujon:
+    Kolokwium: napisane samodzielnie, ocena=5
+  Imprezowicz:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Gawendziarz:
+    Kolokwium: napisane samodzielnie, ocena=5
+  Tancerz:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+
+--- Dzien 14 ---
+
+--- Dzien 15 ---
+  Kujon:
+    Nauka (Kujon): wiedza=100, stres=100, spoleczny=0
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=23, stres=100, spoleczny=100
+  Gawendziarz:
+    Nauka: wiedza=100, stres=100, spoleczny=71
+  Tancerz:
+    Nauka (Tancerz): wiedza=41, stres=100, spoleczny=100
+
+--- Dzien 16 ---
+  Kujon:
+    Kolokwium: napisane samodzielnie, ocena=5
+  Imprezowicz:
+    Kolokwium: przylapany na sciaganiu od Tancerz, ocena=2
+  Gawendziarz:
+    Kolokwium: napisane samodzielnie, ocena=5
+  Tancerz:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+
+--- Dzien 17 ---
+
+--- Dzien 18 ---
+  Kujon:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Imprezowicz:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Gawendziarz:
+    Kolokwium: napisane samodzielnie, ocena=5
+  Tancerz:
+    Kolokwium: napisane samodzielnie, ocena=5
+
+--- Dzien 19 ---
+
+--- Dzien 20 ---
+  Kujon:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Imprezowicz:
+    Kolokwium: sciaganie od Kujon, ocena=4
+  Gawendziarz:
+    Kolokwium: napisane samodzielnie, ocena=5
+  Tancerz:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+
+--- Dzien 21 ---
+  Kujon:
+    Nauka (Kujon): wiedza=100, stres=100, spoleczny=0
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=25, stres=100, spoleczny=100
+  Gawendziarz:
+    Nauka: wiedza=100, stres=100, spoleczny=76
+  Tancerz:
+    Nauka (Tancerz): wiedza=46, stres=100, spoleczny=100
+
+--- Dzien 22 ---
+  Kujon:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Imprezowicz:
+    Kolokwium: przylapany na sciaganiu od Kujon, ocena=2
+  Gawendziarz:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Tancerz:
+    Kolokwium: napisane samodzielnie, ocena=5
+
+--- Dzien 23 ---
+  Kujon:
+    Nauka (Kujon): wiedza=100, stres=100, spoleczny=0
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=27, stres=100, spoleczny=100
+  Gawendziarz:
+    Nauka: wiedza=100, stres=100, spoleczny=81
+  Tancerz:
+    Nauka (Tancerz): wiedza=51, stres=100, spoleczny=100
+
+--- Dzien 24 ---
+  Kujon:
+    Nauka (Kujon): wiedza=100, stres=100, spoleczny=0
+    Impreza: wypito Woda, wiedza=80, stres=92, spoleczny=12
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=29, stres=100, spoleczny=100
+    Impreza: wypito Kompot, wiedza=14, stres=94, spoleczny=100
+  Gawendziarz:
+    Nauka: wiedza=100, stres=100, spoleczny=86
+    Impreza: wypito Sok Pomaranczowy, wiedza=75, stres=90, spoleczny=100
+  Tancerz:
+    Nauka (Tancerz): wiedza=56, stres=100, spoleczny=100
+    Impreza: wypito Sok Pomaranczowy, wiedza=31, stres=90, spoleczny=100
+
+--- Dzien 25 ---
+  Kujon:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Imprezowicz:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+  Gawendziarz:
+    Kolokwium: napisane samodzielnie, ocena=5
+  Tancerz:
+    Kolokwium: zaspanie z powodu stresu, ocena=2
+
+--- Dzien 26 ---
+  Kujon:
+    Nauka (Kujon): wiedza=100, stres=100, spoleczny=7
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=16, stres=100, spoleczny=100
+  Gawendziarz:
+    Nauka: wiedza=85, stres=100, spoleczny=100
+  Tancerz:
+    Nauka (Tancerz): wiedza=36, stres=100, spoleczny=100
+
+--- Dzien 27 ---
+
+--- Dzien 28 ---
+
+--- Dzien 29 ---
+  Kujon:
+    Nauka (Kujon): wiedza=100, stres=100, spoleczny=2
+    Impreza: wypito Woda, wiedza=80, stres=92, spoleczny=14
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=18, stres=100, spoleczny=100
+    Impreza: wypito Sok Jablkowy, wiedza=13, stres=98, spoleczny=100
+  Gawendziarz:
+    Nauka: wiedza=95, stres=100, spoleczny=100
+    Impreza: wypito Kompot, wiedza=80, stres=94, spoleczny=100
+  Tancerz:
+    Nauka (Tancerz): wiedza=41, stres=100, spoleczny=100
+    Impreza: wypito Woda, wiedza=21, stres=92, spoleczny=100
+
+--- Dzien 30 ---
+

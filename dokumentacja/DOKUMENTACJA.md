@@ -1,5 +1,9 @@
 # Dokumentacja Projektu - Symulator Życia w Akademiku
 
+
+## Skład Grupy
+Piotr Wyrwiński - lider, programista, człowiek wielu talentów, filantrop, osoba nieszablonowa, wielowymiarowy, nieosiągalny dla bytów tego świata, skromny ale zarazem lubiący pokazać złoty perłowy pazur, kopalnia pomysłów
+
 ---
 
 ## 1. Temat Projektu
@@ -179,6 +183,45 @@ state SymulacjaDnia {
 SymulacjaDnia --> SymulacjaDnia : Kolejny dzien
 SymulacjaDnia --> [*] : Koniec dni
 @endum
+```
+
+### d) diagram obiektów
+
+```mermaid
+@startuml
+object "symulator : SilnikSymulacji" as silnik {
+    sciezka_logow = "logi/data_godzina"
+    plik_logu = "logi/data_godzina/logi.txt"
+}
+
+object "kujon : Kujon" as stud1 {
+    imie = "Kujon"
+    wiedza = 45
+    stres = 15
+    spoleczny = 28
+}
+
+object "imprezowicz : Imprezowicz" as stud2 {
+    imie = "Imprezowicz"
+    wiedza = 15
+    stres = 5
+    spoleczny = 45
+}
+
+object "indeks1 : Indeks" as ind1 {
+    oceny = [5.0, 4.0]
+}
+
+object "indeks2 : Indeks" as ind2 {
+    oceny = [2.0, 3.0]
+}
+
+silnik --> stud1 : ekipa[0]
+silnik --> stud2 : ekipa[1]
+stud1 --> ind1 : indeks
+stud2 --> ind2 : indeks
+@endum
+@enduml
 ```
 
 ## 4. Główne Statystyki Studenta
