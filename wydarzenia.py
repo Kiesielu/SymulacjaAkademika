@@ -1,9 +1,14 @@
+"""Wydarzenia losowe."""
+
 import random
 from alkohole import Piwo, Wino, Wodka, Bimber
 
 
 class LosowaImpreza:
+    """Wydarzenie imprezy w akademiku."""
+
     def odpal_dla(wyd, stud, ekipa=None):
+        """Uruchamia impreze i zmniejsza wiedze studenta."""
         alko = random.choice(
             [
                 Piwo("Sok Jablkowy"),
@@ -18,7 +23,10 @@ class LosowaImpreza:
 
 
 class LosoweKolokwium:
+    """Wydarzenie kolokwium w akademiku."""
+
     def odpal_dla(wyd, stud, ekipa=None):
+        """Uruchamia kolokwium, liczy ocene i obsluguje sciaganie/zasypianie."""
         stud.stres += 35
 
         if stud.stres >= 80 and random.random() < 0.5:

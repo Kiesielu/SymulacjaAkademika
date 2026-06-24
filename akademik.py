@@ -1,9 +1,12 @@
+"""Glowny plik do uruchamiania symulacji."""
+
 import sys
 from silnik import SilnikSymulacji
 from studenci import inicjalizuj_gre
 
 
 def main():
+    """Funkcja glowna parsujaca argumenty i startujaca symulacje."""
     ilosc_dni = 30
     seed = None
 

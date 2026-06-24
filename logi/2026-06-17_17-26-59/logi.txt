@@ -1,0 +1,34 @@
+--- Dzien 1 ---
+  Kujon:
+    Impreza: wypito Kompot, wiedza=7, stres=5, spoleczny=33
+  Imprezowicz:
+    Impreza: wypito Sok Jablkowy, wiedza=17, stres=6, spoleczny=19
+  Gawendziarz:
+    Impreza: wypito Sok Pomaranczowy, wiedza=0, stres=8, spoleczny=41
+  Tancerz:
+    Impreza: wypito Sok Jablkowy, wiedza=15, stres=13, spoleczny=19
+
+--- Dzien 2 ---
+  Kujon:
+    Nauka (Kujon): wiedza=27, stres=15, spoleczny=28
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=19, stres=8, spoleczny=34
+  Gawendziarz:
+    Nauka: wiedza=10, stres=13, spoleczny=46
+  Tancerz:
+    Nauka (Tancerz): wiedza=20, stres=14, spoleczny=29
+
+--- Dzien 3 ---
+  Kujon:
+    Nauka (Kujon): wiedza=47, stres=25, spoleczny=23
+    Impreza: wypito Sok Pomaranczowy, wiedza=22, stres=15, spoleczny=38
+  Imprezowicz:
+    Nauka (Imprezowicz): wiedza=21, stres=10, spoleczny=49
+    Impreza: wypito Kompot, wiedza=6, stres=4, spoleczny=58
+  Gawendziarz:
+    Nauka: wiedza=20, stres=18, spoleczny=51
+    Impreza: wypito Kompot, wiedza=5, stres=12, spoleczny=60
+  Tancerz:
+    Nauka (Tancerz): wiedza=25, stres=15, spoleczny=39
+    Impreza: wypito Woda, wiedza=5, stres=7, spoleczny=51
+

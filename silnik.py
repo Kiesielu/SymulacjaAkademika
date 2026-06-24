@@ -1,3 +1,5 @@
+"""Klasa silnika symulacji."""
+
 import random
 import os
 import datetime
@@ -6,8 +8,10 @@ from wydarzenia import LosowaImpreza, LosoweKolokwium
 
 
 class SilnikSymulacji:
+    """Klasa glowna odpowiadajaca za przeprowadzenie symulacji."""
 
     def __init__(self):
+        """Inicjalizacja studentow, wydarzen oraz sciezki do zapisu logow."""
         self.ekipa = [
             Kujon("Kujon"),
             Imprezowicz("Imprezowicz"),
@@ -22,6 +26,7 @@ class SilnikSymulacji:
         self.plik_logu = os.path.join(self.sciezka_logow, "logi.txt")
 
     def pokaz_stan(self):
+        """Wypisuje statystyki studentow na ekran."""
         print("statystki studentow")
         for s in self.ekipa:
             print(
@@ -29,6 +34,7 @@ class SilnikSymulacji:
             )
 
     def symuluj_dzien(self, numer_dnia):
+        """Symuluje pojedynczy dzien i zapisuje logi do pliku logi.txt."""
         print(f"dzien nr: {numer_dnia}")
 
         akcja = random.choice(["nauka", "odpoczynek"])
@@ -65,6 +71,7 @@ class SilnikSymulacji:
             f.write("\n")
 
     def odpal_symulacje(self, ilosc_dni):
+        """Uruchamia glowna petle symulacji."""
         for i in range(1, ilosc_dni + 1):
             self.symuluj_dzien(i)
             self.pokaz_stan()
